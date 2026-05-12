@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="OG image placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#173d70"/>
+      <stop offset="100%" stop-color="#0d8848"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <g fill="#fff" font-family="system-ui, sans-serif">
+    <text x="60" y="320" font-size="60" font-weight="700">[BUSINESS NAME]</text>
+    <text x="60" y="380" font-size="28" opacity="0.85">Pressure washing across Sacramento &amp; the Bay Area</text>
+    <text x="60" y="540" font-size="20" opacity="0.7">Replace with branded OG image (1200x630). See IMAGES.md.</text>
+  </g>
+</svg>

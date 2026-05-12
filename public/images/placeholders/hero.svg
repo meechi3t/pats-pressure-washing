@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-label="Hero placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#173d70"/>
+      <stop offset="100%" stop-color="#0d8848"/>
+    </linearGradient>
+    <pattern id="p" x="0" y="0" width="32" height="32" patternUnits="userSpaceOnUse">
+      <circle cx="16" cy="16" r="1" fill="#ffffff22"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect width="1600" height="900" fill="url(#p)"/>
+  <g fill="#ffffff" opacity="0.9" font-family="system-ui, sans-serif">
+    <text x="80" y="460" font-size="64" font-weight="700">Replace this hero image</text>
+    <text x="80" y="520" font-size="28">See IMAGES.md for the recommended subject and dimensions.</text>
+  </g>
+</svg>

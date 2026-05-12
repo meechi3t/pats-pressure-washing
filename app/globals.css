@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-white text-ink-800 antialiased;
+  }
+
+  ::selection {
+    @apply bg-brand-200 text-brand-900;
+  }
+
+  /* Visible focus ring everywhere unless the component opts out. */
+  :focus-visible {
+    @apply outline-none ring-2 ring-brand-400 ring-offset-2 ring-offset-white;
+  }
+}
+
+@layer utilities {
+  .prose-brand h1,
+  .prose-brand h2,
+  .prose-brand h3 {
+    @apply text-brand-900;
+  }
+  .prose-brand p {
+    @apply text-ink-700;
+  }
+}

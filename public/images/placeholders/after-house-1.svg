@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="after house placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#1e4d8c"/>
+      <stop offset="100%" stop-color="#0d8848"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#g)"/>
+  <g fill="#ffffff" font-family="system-ui, sans-serif" opacity="0.9">
+    <text x="40" y="320" font-size="64" font-weight="700">AFTER</text>
+    <text x="40" y="380" font-size="28" opacity="0.85">house</text>
+    <text x="40" y="540" font-size="18" opacity="0.7">Replace via IMAGES.md</text>
+  </g>
+</svg>
