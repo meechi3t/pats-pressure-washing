@@ -43,7 +43,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build (next build, output: export -> out/)
+      - name: "Build static export (next build emits out/)"
         run: npm run build
 
       - name: Upload Pages artifact
